@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>ProForma — Футбольная форма на заказ</title>
+    <link rel="stylesheet" href="seyil.css">
+    <script src="seyil.js"></script>
+</head>
+<body>
+
+<header class="hero">
+    <nav class="nav">
+        <h2>ProForma</h2>
+        <button id="openModal" class="btn small">Заказать</button>
+    </nav>q
+
+    <div class="hero-content">
+        <h1>Футбольная форма на заказ</h1>
+        <p>Дизайн, имена, номера — под твою команду ⚽</p>
+        <button id="openModal2" class="btn">Оформить заказ</button>
+    </div>
+</header>
+
+<section class="section reveal">
+    <h2>Почему выбирают нас</h2>
+    <div class="cards">
+        <div class="card">👕 Индивидуальный дизайн</div>
+        <div class="card">⚡ Быстрое производство</div>
+        <div class="card">💎 Качественные ткани</div>
+        <div class="card">🚚 Доставка по городу</div>
+    </div>
+</section>
+
+<section class="section reveal">
+    <h2>Как заказать</h2>
+    <div class="steps">
+        <div class="step">1️⃣ Выбираешь дизайн</div>
+        <div class="step">2️⃣ Пишешь размеры</div>
+        <div class="step">3️⃣ Получаешь форму</div>
+    </div>
+</section>
+
+<section class="section reveal">
+    <h2>Примеры работ</h2>
+    <div class="gallery">
+        <div class="img">Фото 1</div>
+        <div class="img">Фото 2</div>
+        <div class="img">Фото 3</div>
+    </div>
+</section>
+
+<footer>
+    <p>📞 +996 700 123 456 | 📍 Бишкек</p>
+    <p>© 2026 ProForma</p>
+</footer>
+
+<!-- MODAL -->
+<div class="modal" id="modal">
+    <div class="modal-box">
+        <span id="closeModal">&times;</span>
+        <h2>Заказ формы</h2>
+        <input type="text" placeholder="Название команды">
+        <input type="text" placeholder="Количество комплектов">
+        <input type="tel" placeholder="Телефон">
+        <button id="sendBtn" class="btn">Отправить</button>
+        <p id="msg"></p>
+    </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
